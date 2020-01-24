@@ -1,0 +1,28 @@
+# ----
+# Site
+
+title: EunoWare
+url: "https://eunoware.com"
+
+logo: /favicon.png
+description: We create, we learn, we grow, we share.
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+paginate: 10
+paginate_path: "/blog/:num/"
